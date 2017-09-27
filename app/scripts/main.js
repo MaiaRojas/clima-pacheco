@@ -1,4 +1,8 @@
 import mostrarCiudades from './app';
 import ciudades from './data';
+import './plugin';
 
- mostrarCiudades(ciudades);
+$(() => {
+  $('.row.marketing').pacheco({ciudades});
+
+});
